@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web week-2 assignment</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>List of courses am currently enrolled in PLP</h1>
+        <ol type="i">
+            <li>Software Engineering</li>
+            <li>Web development</li>
+            <li>Database</li>
+            <li>Python</li>
+            <li>Enterpreneurship</li>
+        </ol>
+        <div>
+            <h2>How its feels to be a programmer and a problem solver</h2>
+            <img src="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="500px" alt="lines of code algorithm"/>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>address</th>
+                    <th>mobile</th>
+                    <th>emails</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice</td>
+                    <td>123 Main St, NY</td>
+                    <td>+2308454676</td>
+                    <td>alice@example.com</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>456 Elm St, LA</td>
+                    <td>+2376986543</td>
+                    <td>david@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily</td>
+                    <td>789 Pine St, TX</td>
+                    <td>+5587564532</td>
+                    <td>emily@example.com</td>
+                </tr>
+                <tr>
+                    <td>Micheal</td>
+                    <td>321 Oak St, FL</td>
+                    <td>+8978556655</td>
+                    <td>michael@example.com</td>
+                </tr>
+                <tr>
+                    <td>Sophia</td>
+                    <td>654 Maple St, CA</td>
+                    <td>+3435222222</td>
+                    <td>sophia@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form>
+            <h3>Registration Form</h3>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="enter full name" required/><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="enter email address"required /><br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="enter password" minlength="10" maxlength="25"required /><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required/><br><br>
+
+            <label for="country">Select your Country:</label>
+            <select id="country" name="country" required>
+                <option value="select country" disabled>Select country</option>
+                <option value="usa">United State of America</option>
+                <option value="china">China</option>
+                <option value="australia">Australia</option>
+                <option value="california">California</option>
+            </select><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="male"/>
+             <label for="male">Male</label>
+            <input type="radio" name="gender" id="female"/>
+             <label for="female">Female</label>
+            <input type="radio" name="gender" id="other"/>
+            <label for="other">Other</label><br><br>
+
+            <label>Favorites Football-Players</label>
+            <input type="checkbox" name="players" id="messi" />
+            <label for="messi">Messi</label>
+            <input type="checkbox" name="players" id="ronaldo" />
+            <label for="ronaldo">Ronaldo</label>
+            <input type="checkbox" name="players" id="neymar" />
+            <label for="neymar">Neymar</label>
+            <input type="checkbox" name="players" id="bale" />
+            <label for="bale">Bale</label><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <h4>Mulitimedia display</h4>
+        <audio controls>
+            <source src="./multimedia/juba.mp3" type="audio/mp3" />
+            your browser does not support this audio
+         </audio><br><br>
+
+
+         <video controls width="300px" height="400px" poster="./multimedia/poster-image.jpg">
+            <source src="./multimedia/tipper-dude.mp4" type="video/mp4" />
+            your browser does not support this video
+        </video> 
+
+    </main>
+
+   
+
+ 
+
+</body>
+</html>
+
+
+
+
+
